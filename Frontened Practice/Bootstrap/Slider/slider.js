@@ -22,7 +22,7 @@ function nextImage(){
 
 }
 
-setBackgroundImg();
+
 
 function previousImage() {
     ImageIndex-- ;
@@ -47,5 +47,6 @@ function setBackgroundImg(){
     body.style.backgroundImage=
     images[ImageIndex].style.backgroundImage
 }
+setBackgroundImg();
 
 

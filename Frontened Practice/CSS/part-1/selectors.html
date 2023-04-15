@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Selectors</title>
 
     <style>
-
-        /* *{
+      /* *{
             background-color: aquamarine;   universal selector
         } 
 
@@ -48,65 +47,55 @@
         div span {
             background-color: blueviolet;         /*check for any relation from top to bottom 
         } 
-
-        li#ras ~ li{
-            color: burlywood;     /*  apply css to all those elements that comes after ~ with  given selector
-        }
-         
-        li#ras + li{
-            color: darkgoldenrod;    /* apply css to only one element that comes after ~ with  given selector
-        }
-        
-
-
-        ---- Pseudo selctors---
-
-        li:hover{
-            background-color: deepskyblue;
-            cursor: pointer;
-        }
 */
+      li#ras ~ li {
+        color: rgb(51, 161, 167);
+      }
 
-/* input:focus{
-    background-color: blueviolet;
-}
-input:required{
-    background-color: aquamarine;
-} */
+      /* li#ras + li {
+        color: rgb(146, 19, 98);
+      } */
 
-    span::before{
-    content: "choose something : ";
-    color: brown;
-}
+      ---- Pseudo selctors--- li:hover {
+        background-color: deepskyblue;
+        cursor: pointer;
+      }
 
+      input:focus {
+        background-color: blueviolet;
+      }
+      input:required {
+        background-color: aquamarine;
+      }
 
-
+      span::before {
+        content: "choose something : ";
+        color: brown;
+      }
     </style>
-
-
-
-</head>
-<body>
+  </head>
+  <body>
     <h1 class="tomato">Selectors in css</h1>
-    <h2>Heading </h2>
+    <h2>Heading</h2>
     <div>
-        <h3>hello</h3>
-       <section>
-             <span>Pick any fruit you want</span>
-       </section>
+      <h3>hello</h3>
+      <section>
+        <span>Pick any fruit you want</span>
+      </section>
     </div>
-   
+
     <ol>
-        <li class="tomato">apple</li>
-        <li id="ras">Mango</li>
-        <li>orange
-            <ol>
-                <li>kiwi</li>
-            </ol>
-        </li>
-        <li id="ras" class="tomato">peach</li>
+      <li class="tomato">apple</li>
+      <li id="ras">Mango</li>
+      <li>
+        orange
+        <ol>
+          <li>kiwi</li>
+        </ol>
+      </li>
+      <li id="ras" class="tomato">peach</li>
     </ol>
 
-    <input required type="text">
-</body>
+    <input required type="text" />
+  </body>
 </html>

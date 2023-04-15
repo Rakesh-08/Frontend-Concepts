@@ -14,20 +14,20 @@ console.log(document.all[4]);
 
 // Two ways to add elments in body
 
-//const body= document.body;
+const body= document.body;
 
 //body.append('Hello everyone');
 //body.appendChild("Hello everyone");    (it will not add strings)
 
-//const div= document.createElement('div');
+const div= document.createElement('div');
 
 // Two ways to add text into element
 
 // div.innerText="javascript"
-//div.textContent='Java'
+// div.textContent='Java'
 
 //body.append(div)
-//body.appendChild(div)
+//  body.appendChild(div)
 
 // const div=document.querySelector('div')
 

@@ -6,35 +6,27 @@
     <title>Tables</title>
 
     <style>
-      .Table-container{
-width: 600px;
-overflow-x:auto ;
-height: 400px;
- }  
+      .Table-container {
+        width: 50%;
+        height: 400px;
+        overflow-x: auto;
+      }
       table {
         border-collapse: collapse;
         width: 100%;
       }
 
-      /* th{
-            text-align: left;
-        } */
+      td {
+        height: 30px;
+        vertical-align: bottom;
+        text-align: center;
+      }
 
-      /* td{
-            text-align: center;
-        } */
-
-      /* td{
-            height: 50px;
-            vertical-align: bottom;
-            text-align: center;
-        } */
-      /* 
       table,
       th,
       td {
         border: 1.5px solid black;
-      } */
+      }
 
       th,
       td {
@@ -42,11 +34,11 @@ height: 400px;
         padding: 12px;
         text-align: left;
       }
-      tr:hover {
+      td:hover {
         background-color: violet;
       }
 
-       tr:nth-child(even) {  /*stripe style */
+      tr:nth-child(even) {
         background-color: tomato;
       }
       th {
@@ -180,7 +172,6 @@ height: 400px;
           <td>60</td>
         </tr>
 
-        
         <tr>
           <td>Rakesh</td>
           <td>23</td>

@@ -4,13 +4,15 @@ const textelement = document.getElementById('text');
 const speedelement= document.getElementById('speed')
 
 speedelement.addEventListener('change', (e)=>{
-    time=500/ e.target.value
+    time = 500 / e.target.value
+    
 })
 
-const someText = 'I am doing Javascript';
+ const someText = 'I am doing Javascript';
 
 let index=1;
-let time = 500/speedelement.value
+let time = 500 / speedelement.value
+
 
 function automaticText(){
 

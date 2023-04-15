@@ -39,7 +39,7 @@
   flex-wrap: wrap;
   position: relative;
   justify-content: space-around;
-  transition: 0.7s ease-in-out;
+  transition: 3s ease-in-out;
 }
 
 .boxContainer.big {
@@ -52,7 +52,7 @@
 
 .box {
   background-image: url("https://i.gifer.com/2c1Q.gif");
-  background-size: 500px 500px;
+  background-size: 31em 31em;
   position: relative;
   height: 125px;
   width: 125px;

@@ -19,7 +19,7 @@ for(i=0; i<4 ; i++){
          let singlebox= document.createElement('div')
 
          singlebox.classList='box';
-         singlebox.style.backgroundPosition = `${-j*125}px ${-i*125}px`
+         singlebox.style.backgroundPosition = `${-j*8}em ${-i*8}em`
 
          boxcontainer.append(singlebox)
     }

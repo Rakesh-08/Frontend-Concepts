@@ -37,34 +37,35 @@ function getUser() {
   }, 1000);
 }
 
-function createUser(user, ) {
+function createUser(user) {
   //imitate asynchronus behaviour
- return new Promise((resolve,reject)=>{
-setTimeout(() => {
-  users.push(user);
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      users.push(user);
 
-  const err = false;
+      const err = false;
 
-  if(!err){
-    resolve('happily resolved')
-  }else{
-    reject('request rejected')
-  }
-}, 2000);
+      if (!err) {
+        resolve('happily resolved')
+      } else {
+        reject('request rejected')
+      }
+    }, 2000);
 
- })
+  })
 
 
-  
+
 }
 
 createUser(
-  {name: "Rahul",
+  {
+    name: "Rahul",
     age: 24,
   }
 )
-.then(getUser)
-//.then(()=> console.log('get post'))
-.catch(err=> console.log(err))
+  .then(getUser)
+  //.then(()=> console.log('get post'))
+  .catch(err => console.log(err))
 
 
